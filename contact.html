@@ -44,18 +44,7 @@
             <h2 class="contact-heading">Contact us</h2>
           </div>
           <div class="contact-form w-form">
-            <form action="https://mailthis.to/luke@lukemoynihan.dev"
-                method="POST" encType="multipart/form-data">
-                <input type="text" name="name" placeholder="Your name">
-                <input type="email" name="_replyto" placeholder="Your email">
-                <textarea name="message" placeholder="Enter your message here"></textarea>
-                <input type="file" name="file" placeholder="Attachments (optional)">
-                <input type="hidden" name="_subject" value="Contact form submitted">
-                <input type="hidden" name="_after" value="https://myhomepage.net/">
-                <input type="hidden" name="_honeypot" value="">
-                <input type="hidden" name="_confirmation" value="">
-                <input type="submit" value="Send">
-             </form>
+            <form data-name="Get In Touch Form" name="wf-form-Get-In-Touch-Form" class="get-in-touch-form"><label for="name">Name</label><input type="text" class="text-field cc-contact-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Enter your name" id="Name"><label for="Email-2">Email Address</label><input type="email" class="text-field cc-contact-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="Enter your email" id="Email" required=""><label for="Message">Message</label><textarea id="Message" name="Message" placeholder="Hi there, I’m reaching out because I think we can collaborate…" maxlength="5000" data-name="Message" class="text-field cc-textarea cc-contact-field w-input"></textarea><input type="submit" value="Submit" data-wait="Please wait..." class="button w-button" action="https://mailthis.to/luke@lukemoynihan.dev" method="post"></form>
             <div class="status-message cc-success-message w-form-done">
               <div>Thank you! Your submission has been received!</div>
             </div>
